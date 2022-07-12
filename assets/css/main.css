@@ -1,11 +1,40 @@
-/*variables*/
-@import url(./misc/_variables.scss);
-/*normalize*/
-@import url(./misc/_normalize.scss);
-/*mixins*/
-@import url(./misc/_mixins.scss);
+/*VARIABLES*/
+/* Colors */
+/* Spacings */
+/*Font-family */
+/* Font-Sizes */
+/*NORMALIZE*/
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Roboto+Slab:wght@300;500&display=swap");
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
+html {
+  font-size: 62.5%; }
 
-/*partials*/
-/*header*/
-@import url(./partials/_header.scss);
+body {
+  font-family: "Barlow", sans-serif; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  color: #2B2B2B; }
+
+img {
+  width: 100%; }
+
+/*MIXINS*/
+/* HEADER */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 2px solid #FF5376; }

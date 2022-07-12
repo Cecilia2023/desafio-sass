@@ -1,11 +1,9 @@
-/*variables*/
-@import url(./misc/_variables.scss);  
+/*VARIABLES*/
+@import "./misc/variables";
+/*NORMALIZE*/
+@import "./misc/normalize";
+/*MIXINS*/
+@import "./misc/mixins";
 
-/*normalize*/
-@import url(./misc/_normalize.scss);
-
-/*mixins*/
-@import url(./misc/_mixins.scss);
-
-/*header*/
-@import url(./partials/_header.scss);
+/* HEADER */ 
+@import "./partials/header";

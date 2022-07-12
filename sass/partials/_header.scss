@@ -1,6 +1,6 @@
 header{
-    @include flex (row, space-araund, center);
-    padding: $small;
+    @include flex (row, space-around, center);
+    padding: $spacing-small;
     border-bottom: 2px solid $secondary;
     
     
